@@ -9,3 +9,4 @@ A Collection of my BASIC Programs
 |forth.bas|FORTH Interpreter (Commands: + - / * dup swap rot over)|
 |dootplayer.bas|VT File Player (needs doot.vtt)|
 |msgboard.bas|A Message Board. Shows a X-Mas Animation in December. This is my current BBS|
+|smalltar.bas|A somewhat whacky TAR Implementation. Only Supports Files smaller than 1k|
