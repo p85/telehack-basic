@@ -17,10 +17,10 @@
   170  IF A% = 27 AND B% = 91 AND C% = 49 AND D% = 55 THEN FN% = 6
   180  IF A% = 27 AND B% = 91 AND C% = 49 AND D% = 56 THEN FN% = 7
   190  IF A% = 27 AND B% = 91 AND C% = 49 AND D% = 57 THEN FN% = 8
-  191  IF A% = 27 AND B% = 91 AND C% = 50 AND D% = 48 THEN FN% = 9
-  192  IF A% = 27 AND B% = 91 AND C% = 50 AND D% = 49 THEN FN% = 10
-  193  IF A% = 27 AND B% = 91 AND C% = 50 AND D% = 51 THEN FN% = 11
-  194  IF A% = 27 AND B% = 91 AND C% = 50 AND D% = 52 THEN FN% = 12
-  200  IF UP% = 1 OR DOWN% = 1 OR LEFT% = 1 OR RIGHT% = 1 THEN PRINT "Arrow Keys pressed: Up:"; UP%; " Down:"; DOWN%; " Left:"; LEFT%; " Right:"; RIGHT%
-  210  IF FN% = 0 AND UP% = 0 AND DOWN% = 0 AND LEFT% = 0 AND RIGHT% = 0 THEN PRINT "Key pressed: "; CHR$(A%); " ASCII-Value: "; A%
-  220  IF FN% > 0 THEN PRINT "Pressed F-Key: "; FN%
+  200  IF A% = 27 AND B% = 91 AND C% = 50 AND D% = 48 THEN FN% = 9
+  210  IF A% = 27 AND B% = 91 AND C% = 50 AND D% = 49 THEN FN% = 10
+  220  IF A% = 27 AND B% = 91 AND C% = 50 AND D% = 51 THEN FN% = 11
+  230  IF A% = 27 AND B% = 91 AND C% = 50 AND D% = 52 THEN FN% = 12
+  240  IF UP% = 1 OR DOWN% = 1 OR LEFT% = 1 OR RIGHT% = 1 THEN PRINT "Arrow Keys pressed: Up:"; UP%; " Down:"; DOWN%; " Left:"; LEFT%; " Right:"; RIGHT%
+  250  IF FN% = 0 AND UP% = 0 AND DOWN% = 0 AND LEFT% = 0 AND RIGHT% = 0 THEN PRINT "Key pressed: "; CHR$(A%); " ASCII-Value: "; A%
+  260  IF FN% > 0 THEN PRINT "Pressed F-Key: "; FN%
