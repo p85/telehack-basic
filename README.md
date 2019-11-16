@@ -11,3 +11,4 @@ A Collection of my BASIC Programs
 | msgboard.bas   | A Message Board. Shows a X-Mas Animation in December. This is my current BBS               |
 | smalltar.bas   | A somewhat whacky TAR Implementation. Only Supports Files smaller than 1k                  |
 | args.bas       | Parses Command-Line Args passed to the Program. Example: `args.bas arg1 Hello World 12345` |
+| arrowkeys.bas  | Parses Arrow-Keys from INKEY$ Input                                                        |
