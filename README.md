@@ -12,3 +12,4 @@ A Collection of my BASIC Programs
 | smalltar.bas   | A somewhat whacky TAR Implementation. Only Supports Files smaller than 1k                  |
 | args.bas       | Parses Command-Line Args passed to the Program. Example: `args.bas arg1 Hello World 12345` |
 | parsekeys.bas  | Parses Arrow-Keys/F1-F12 from INKEY$ Input                                                 |
+| cp.bas         | Copies a File, utilizing ARG$ for Parsing the Parameters                                   |
