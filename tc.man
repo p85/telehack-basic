@@ -1,0 +1,24 @@
+telecommander - a simplified mc-clone
+=====================================
+
+just start it with tc.bas with the default colors
+
+you can define colors on start up: tc.bas <fgcolor> <bgcolor>
+use the command show colors to see available colors
+
+you can set your preferred colors in tc.ini, which wil loaded on startup.
+example for default colors telehack provides:
+tc.bas green red
+
+example tc.ini:
+foreground=red
+background=blue
+
+you can also set in tc.ini R,G,B values which can display 256 colors. your terminal needs to support 256 colors.
+example tc.ini:
+fg_r=31
+fg_g=56
+fg_b=99
+bg_r=1
+bg_g=127
+bg_b=200

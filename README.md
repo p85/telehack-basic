@@ -13,3 +13,5 @@ A Collection of my BASIC Programs
 | args.bas       | Parses Command-Line Args passed to the Program. Example: `args.bas arg1 Hello World 12345` |
 | parsekeys.bas  | Parses Arrow-Keys/F1-F12 from INKEY$ Input                                                 |
 | cp.bas         | Copies a File, utilizing ARG$ for Parsing the Parameters                                   |
+| tc.bas         | telecommander - a simplified mc-clone, see tc.man                                          |
+| pman.bas       | a pacman clone, with support for user made levels, see pman.man                            |

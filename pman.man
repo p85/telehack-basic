@@ -1,0 +1,29 @@
+Pman - Create Your Own Level
+============================
+
+Explanation of Symbols:
+-----------------------
+@ is the player's starting point (only one allowed)
+# is a wall
+. dots can be eaten for points! But beware, enemies like them too...
+B A horizontal moving enemy, will turn around on hitting a wall
+P A vertical moving enemy, will turn around on hitting a wall
+
+Example of a Simple Map:
+------------------------
+#####
+#...#
+#.@.#
+#...#
+#####
+
+Example of a Simple Map with One Enemy:
+---------------------------------------
+########
+#@.....#
+#...#..#
+#B..#..#
+########
+
+Put the map into a file, with an editor like ped.
+When you're done, you can start pman.exe and pass the filename as an argument, e.g.: `pman mymap.map`
